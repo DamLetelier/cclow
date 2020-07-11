@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Individual 27</title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#resizable" ).resizable();
+        } );
+
+        $( function() {
+            $( "#accordion" ).accordion();
+        } );
+
+        $( function() {
+            $( "#dialog" ).dialog();
+        } );
+    </script>
+</head>
+<body>
+    <div id="resizable" class="ui-widget-content">
+        <h3 class="ui-widget-header">Sakura Card Captor - Cartas Clow</h3>
+      </div>
+        <div id="accordion">
+        <h3>La esperanza - The Hope, 希望</h3>
+      <div>
+        <p>Simboliza la esperanza de un amor.</p>
+      </div>
+        <h3>La Nada - The Nothing, 無 </h3>
+      <div>
+        <p>Simboliza el espacio vacío, la nada, lo negativo.</p>
+      </div>
+        <h3>Tierra - The Earthy, 地</h3>
+      <div>
+        <p>Simboliza la solidez, la sujeción y la vida.</p>
+      </div>
+        <h3>Gemelos - The Twin, 双</h3>
+      <div>
+        <p>Simbolizan la dualidad, la compañía, la multiplicación.</p>
+      </div>
+        <h3>Nieve - The Snow, 雪</h3>
+        <div>
+        <p>Simboliza el bloqueo, la inmovilidad y el fin de los problemas.</p>
+        </div>
+      </div>
+
+    <div id="dialog" title="Pasos para la Adivinación">
+      <p>Primero se revuelven bien las Cartas con la mano izquierda. <br>
+        Ahora ordénalas con la mano izquierda, y divídelas en tres mazos. <br>
+        Se recogen y acomodan, con la misma mano, en orden cualquiera. <br>
+          <br>
+        Se acomodan sobre la mesa, de la forma como se indica en la imagen, intercalando una carta en la mesa y una en la mano. <br>
+        Se cierran los ojos y se pronuncian las siguientes palabras: “Cartas creadas por el brujo Clow, quiero que respondan mis preguntas”. Aquí es cuando se formula la pregunta a contestar. <br>
+        Se voltea la primera Carta ubicada en la parte central de la parte superior. Esta carta revela el mensaje que tratan de transmitir las cartas, en concreto, la circunstancia más importante de la situación que se vive y por la que se hace la consulta, la circunstancia más trascendental que la persona que consulta a las cartas ha de tener en consideración para lograr la(s) meta(s) que se propone o pueda prononerse conseguir. <br>
+        Las tres Cartas ubicadas en el centro, significan la asociación de ideas, y nos dirán la respuesta a nuestra pregunta. <br>
+        La última Carta indica lo que sufre peligro. <br>
+      </p>
+    </div>        
+</body>
+</html>
